@@ -1,15 +1,12 @@
-import { useState } from 'react'
-
-
-
+import Router from "./router";	
+import HeroTop from "./components/marketing/pageSections/heroTop";
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      <div>
-            <h1 className=""> Burger House</h1>
-      </div>
+      <HeroTop />
+      <Router />
     
     </>
   )

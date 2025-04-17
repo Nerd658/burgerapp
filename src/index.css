@@ -1,2 +1,23 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Mr+Dafoe&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
+@theme {
+    /* Polices */
+    --font-display: "Satoshi", "sans-serif";
+    --font-roboto: "Roboto", "sans-serif";
+    --font-alfa: "Alfa Slab One", "serif";
+    --font-dafoe: "Mr Dafoe", cursive;
+    
+    /* Points de rupture */
+    --breakpoint-3xl: 120rem;
+    
+    /* Couleurs */
+    --color-primary: #ffc045;
+    --color-secondary: #3d2514;
+    --color-tertiary: #bf2222;
+
+    /* Animations */
+    --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
+}
+
+/* Classes personnalisées pour les polices */

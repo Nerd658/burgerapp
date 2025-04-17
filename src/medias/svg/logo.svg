@@ -1,0 +1,26 @@
+<svg viewBox="0 0 650 150" xmlns="http://www.w3.org/2000/svg">
+  <!-- Icône du burger (style linéaire comme dans l'image) -->
+  <g transform="translate(20, 35)" fill="#3C2415">
+    <!-- Pain supérieur -->
+    <path d="M15,20 C15,12 25,5 60,5 C95,5 105,12 105,20 L105,30 C105,30 15,30 15,30 L15,20 Z" stroke="#3C2415" stroke-width="6" fill="none"/>
+    
+    <!-- Points sur le pain -->
+    <circle cx="30" cy="17" r="4" />
+    <circle cx="45" cy="17" r="4" />
+    <circle cx="60" cy="17" r="4" />
+    <circle cx="75" cy="17" r="4" />
+    <circle cx="90" cy="17" r="4" />
+    
+    <!-- Corps du burger -->
+    <rect x="15" y="30" width="90" height="15" stroke="#3C2415" stroke-width="6" fill="none"/>
+    
+    <!-- Milieu du burger avec la partie sortante -->
+    <path d="M15,45 L105,45 L105,60 L15,60 L15,45 Z M15,52.5 L0,52.5" stroke="#3C2415" stroke-width="6" fill="none"/>
+    
+    <!-- Pain inférieur -->
+    <rect x="15" y="60" width="90" height="20" stroke="#3C2415" stroke-width="6" fill="none"/>
+  </g>
+  
+  <!-- Texte "BURGER HOUSE" -->
+  <text x="150" y="85" font-family="Arial, sans-serif" font-size="50" font-weight="900" fill="#3C2415" letter-spacing="1">BURGER HOUSE</text>
+</svg>
