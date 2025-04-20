@@ -11,4 +11,26 @@ export default defineConfig({
     react(),
     
   ],
+  server: {
+    host: true, // Permet l'accès depuis d'autres appareils
+    port: 5173, // Port par défaut de Vite
+    strictPort: true, // Force l'utilisation du port spécifié
+    watch: {
+      usePolling: true // Utile pour certains environnements
+    },
+    hmr: {
+      host: 'localhost',
+      protocol: 'ws',
+      port: 5173
+    },
+    cors: true, // Active CORS pour les requêtes cross-origin
+    proxy: {
+      // Configuration du proxy si nécessaire
+      '/api': {
+        target: 'localhost',
+        changeOrigin: true,
+        secure: false
+      }
+    }
+  }
 })
