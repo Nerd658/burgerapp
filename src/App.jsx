@@ -1,15 +1,18 @@
-import Router from "./router";	
-import HeroTop from "./components/marketing/pageSections/heroTop";
+import React from 'react' 
+import HomePage from "./pages/home.jsx";
+
+
 function App() {
   
 
   return (
     <>
-      <HeroTop />
-      <Router />
+      <HomePage />
+     
     
     </>
   )
 }
 
 export default App
+
