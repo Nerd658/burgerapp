@@ -13,8 +13,12 @@
     
     /* Couleurs */
     --color-primary: #ffc045;
+    --color-primary-hover: #f9b700;
+    
     --color-secondary: #3d2514;
+    --color-secondary-hover: #2b1a0c;
     --color-tertiary: #bf2222;
+    --color-tertiary-hover: #9b1a1a;
 
     /* Animations */
     --ease-snappy: cubic-bezier(0.2, 0, 0, 1);
