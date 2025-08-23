@@ -1,6 +1,6 @@
 import React from "react";
 
-function Bouton({children, className, color, theme}) {
+function Button({children, className, color, theme}) {
     let backgroundColor ;
     switch (color) {
         case "primary" : backgroundColor = "bg-primary hover:bg-primary-hover"; 
@@ -48,4 +48,4 @@ function Bouton({children, className, color, theme}) {
 
     
 }
-export default Bouton;  
+export default Button;

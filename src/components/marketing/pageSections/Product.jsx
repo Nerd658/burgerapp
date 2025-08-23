@@ -1,23 +1,22 @@
-import React, { Children } from "react";
+import React from "react";
 import HeadingTitle from "../../elements/HeadingTitle.jsx";
 import Container from "../../elements/container.jsx";
 import Heading from "../../elements/Heading.jsx";
 
-function Product() {
+function Product({ title, heading1, heading2 }) {
     return (
         <Container> 
-         
-            <HeadingTitle >
-                Des plats délicieux et sains à portée de main
+            <HeadingTitle>
+                {title}
             </HeadingTitle>
             <Heading variant="h3" theme="secondary" display="gray"> 
-                Hello World
+                {heading1}
             </Heading>
             <Heading variant="" theme="secondary" display=""> 
-                Hello World
+                {heading2}
             </Heading>
         </Container>
     )
 }
 
-export default Product
+export default Product;
