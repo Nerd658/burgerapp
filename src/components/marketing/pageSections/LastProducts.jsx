@@ -1,6 +1,6 @@
 import React from "react";
 import Container from "../../elements/container.jsx";
-import { products } from "../../../data/products.js";
+import { products } from "../../../data/products.jsx";
 
 function LastProducts() {
     return (
