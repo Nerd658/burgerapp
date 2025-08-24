@@ -1,6 +1,6 @@
 import React from "react";	
 import HeroTop from "../components/marketing/pageSections/heroTop.jsx";
-import LastProducts from "../components/marketing/pageSections/lastProducts.jsx";
+import LastProducts from "../components/marketing/pageSections/LastProducts.jsx";
 import Product from "../components/marketing/pageSections/Product.jsx";
 import burgerImage from "../medias/images/image_burger.png";
 
