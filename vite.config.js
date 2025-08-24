@@ -1,4 +1,4 @@
-// vite.config.js
+/// <reference types="vitest" />
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
@@ -11,6 +11,11 @@ export default defineConfig({
     react(),
     
   ],
+  test: {
+    globals: true,
+    environment: 'jsdom',
+    setupFiles: 'src/setupTests.js',
+  },
   server: {
     host: true, // Permet l'accès depuis d'autres appareils
     port: 5173, // Port par défaut de Vite
